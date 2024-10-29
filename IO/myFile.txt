@@ -1,3 +1,0 @@
-Character encoding is the process of assigning numbers to graphical characters, especially the written characters of human language, allowing them to be stored, transmitted, and transformed using digital computers.
-Some common encoding ways include utf-8(this is the standard of HTML), cp950 and ASCII.
-The open() function in python open the file based on the OS default encoding. That means, if we are in traditional Chinese Windows, the default encoding might be cp950, if we are trying to open a utf-8 file, then we must write open(filename,encoding="utf-8")
